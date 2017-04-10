@@ -5,3 +5,12 @@
     <!ENTITY months "जनवरी|फरवरी|मार्च|अप्रैल|मई|जून|जुलाई|अगस्त|सितम्बर|अक्टूबर|नवम्बर|दिसम्बर">
     <!ENTITY abbrevMonths "जन|फर|मार्च|अप्रे|मई|जून|जुला|अग|सित|अक्टू|नव|दिस">
 ]>
+
+<rule id="_" name="सामान्य त्रुटि">
+ <pattern>
+  <token regexp='yes'>क्यूँ</token>
+ </pattern>
+ <message>गलत शब्द</message>
+ <example correction=''>क्यूँ</example>
+ <example>क्यों</example>
+</rule>
