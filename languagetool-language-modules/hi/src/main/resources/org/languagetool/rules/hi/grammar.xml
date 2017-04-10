@@ -14,3 +14,21 @@
  <example correction=''>क्यूँ</example>
  <example>क्यों</example>
 </rule>
+
+<rule id="_" name="सामान्य त्रुटि">
+ <pattern>
+  <token>देस</token>
+ </pattern>
+ <message>गलत शब्द</message>
+ <example correction=''>देस</example>
+ <example>देश</example>
+</rule>
+
+<rule id="_" name="सामान्य त्रुटि">
+ <pattern>
+  <token regexp='yes'>डायरेक्टर</token>
+ </pattern>
+ <message>गलत शब्द</message>
+ <example correction=''>डायरेक्टर</example>
+ <example>निर्देशक</example>
+</rule>
