@@ -32,3 +32,31 @@
  <example correction=''>डायरेक्टर</example>
  <example>निर्देशक</example>
 </rule>
+
+<rule id="_" name="सामान्य त्रुटि">
+ <pattern>
+  <token regexp='yes'>क्योकि</token>
+ </pattern>
+ <message>गलत शब्द</message>
+ <example correction=''>क्योकि</example>
+ <example>क्योंकि</example>
+</rule>
+
+
+<rule id="_" name="सामान्य त्रुटि">
+ <pattern>
+  <token regexp='yes'>सकता हैं</token>
+ </pattern>
+ <message>गलत शब्द</message>
+ <example correction=''>हैं</example>
+ <example>है</example>
+</rule>
+
+<rule id="_" name="सामान्य त्रुटि">
+ <pattern>
+  <token regexp='yes'>सकते है</token>
+ </pattern>
+ <message>गलत शब्द</message>
+ <example correction=''>है</example>
+ <example>हैं</example>
+</rule>
