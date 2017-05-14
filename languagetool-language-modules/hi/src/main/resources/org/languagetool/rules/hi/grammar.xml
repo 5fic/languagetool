@@ -60,3 +60,12 @@
  <example correction=''>है</example>
  <example>हैं</example>
 </rule>
+
+<rule id="_" name="सामान्य त्रुटि">
+ <pattern>
+  <token regexp='yes'>जिसमे</token>
+ </pattern>
+ <message>गलत शब्द</message>
+ <example correction=''>जिसमे</example>
+ <example>जिसमें</example>
+</rule>
